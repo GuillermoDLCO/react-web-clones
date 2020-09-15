@@ -1,0 +1,93 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.banner__top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.banner__search {
+    display: flex;
+    justify-content: center;
+}
+
+.search__field {
+    display: flex;
+    align-items: center;
+    max-width: fit-content;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    height: 20px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.search__field>input {
+    border: none;
+    padding: 10px;
+    outline-width: 0;
+    width: 250px;
+    background-color: white;
+}
+
+.search__field>.MuiSvgIcon-root {
+    color: gray;
+}
+
+.banner__search>button {
+    background-color: #2e81f4;
+    color: white;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin: 10px;
+    text-transform: inherit;
+    font-weight: 600;
+    border-radius: 8px;
+    background-image: linear-gradient(130deg, #ff9259 0, #ff2426 70%);
+}
+
+.images__top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-bottom: 20px;
+}
+
+.more__icons {
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first__icon {
+    position: relative;
+    top: -100px;
+}
+
+.third__icon {
+    position: relative;
+    top: -15px;
+}
+
+.fourth__icon {
+    position: relative;
+    top: -90px;
+}
+
+.top__firstIcon {
+    margin-left: 60px;
+}
+
+.top__secondIcon {
+    margin-right: 60px;
+}
+

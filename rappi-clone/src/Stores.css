@@ -1,0 +1,14 @@
+.stores {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.stores > h3 {
+    font-size: 13px;
+    color: gray;
+}
+
+
+.store__type {
+    display: flex;
+}

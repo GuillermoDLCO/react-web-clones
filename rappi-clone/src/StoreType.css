@@ -1,0 +1,15 @@
+.storeType {
+    text-align: center;
+    justify-items: center;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.storeType > img {
+    height: 150px;
+    border-radius: 10px;
+}
+
+.storeType > h2 {
+    font-size: 12px;
+}

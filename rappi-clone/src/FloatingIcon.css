@@ -1,0 +1,18 @@
+.floatingIcon>img {
+    width: 60;
+    height: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+    animation: 8s ease-in-out infinite floating;
+}
+
+
+
+@keyframes floating {
+	0%, 100% {
+        transform: translateY(-5%) rotate(3deg);
+    }
+    65% {
+        transform: translateY(5%) rotate(-3deg);
+    }
+}
